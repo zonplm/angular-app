@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "server", "server\server.njsproj", "{D4266706-A56A-4BC1-B766-9A84C7AEEE3B}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "client", "client", "{B02FB06E-7B45-4139-902A-E9596EE787A1}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/client"
+		Debug.AspNetCompiler.PhysicalPath = "client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\client\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/client"
+		Release.AspNetCompiler.PhysicalPath = "client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\client\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61036"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4266706-A56A-4BC1-B766-9A84C7AEEE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4266706-A56A-4BC1-B766-9A84C7AEEE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4266706-A56A-4BC1-B766-9A84C7AEEE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4266706-A56A-4BC1-B766-9A84C7AEEE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02FB06E-7B45-4139-902A-E9596EE787A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02FB06E-7B45-4139-902A-E9596EE787A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02FB06E-7B45-4139-902A-E9596EE787A1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02FB06E-7B45-4139-902A-E9596EE787A1}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
